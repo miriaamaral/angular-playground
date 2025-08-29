@@ -1,15 +1,13 @@
-# Desvendando o Angular: do zero ao funcionamento
+### **1. O Básico do Ambiente Local**
 
-Se você está começando a explorar o **Angular**, relaxa! Ele é um framework super poderoso que ajuda a criar sites e sistemas web de forma organizada e prática.
+* **Preparando o Terreno:** Aprendi a instalar o **Angular CLI** de forma global com o `npm`, e a criar um novo projeto com o comando `ng new`.
 
-Tudo começa com o **Angular CLI**, que é tipo uma "ferramenta mágica" que funciona no terminal e facilita muito sua vida. Com ela, você consegue criar um novo projeto rapidinho (`ng new`) e gerar os arquivos necessários (`ng generate`). A ideia principal é que sua aplicação seja feita de **componentes**, que são como bloquinhos de código que juntam HTML, CSS e TypeScript para formar partes do seu site.
+* **O Novo Brother:** O CLI virou meu melhor amigo. Com ele, consigo criar componentes (`ng g c`), que são a base de qualquer app, e entendi a estrutura de arquivos de um projeto Angular.
 
-Agora, a parte legal: cada componente tem um "ciclo de vida". Isso significa que ele nasce, vive e pode ser destruído. Por exemplo, quando um componente é criado, o Angular chama o método `ngOnInit`; quando ele é removido, chama o `ngOnDestroy`. Esses momentos são chamados de "ganchos" (ou *hooks*), e você pode usar eles para colocar sua lógica e fazer as coisas funcionarem direitinho em cada etapa.
+* **Dica Opcional:** Deixei meu VS Code com uma cara mais profissional usando o `Material Icon Theme` para organizar pastas e arquivos de forma visual.
 
-Resumindo:
+### **2. Entendendo o Ciclo de Vida do Componente**
 
-- **CLI:** É sua ferramenta para automatizar tarefas e facilitar o trabalho.
-- **Componentes:** São os pedacinhos reutilizáveis do seu código.
-- **Ciclo de Vida:** É como você controla o momento certo de executar ações no componente, evitando problemas como vazamento de memória.
+O coração do que estudei! Entendi que um componente tem uma vida, e o Angular nos dá "ganchos" para controlá-la.
 
-Aprender esses conceitos básicos já vai te deixar pronto para criar projetos incríveis com Angular!
+* **A Ordem da Vida:** Os **8 hooks** de ciclo de vida são como momentos de um dia. Fui do nascimento (`ngOnInit`), passando por cada pequena mudança (`ngOnChanges`), até a hora de dar tchau (`ngOnDestroy`).
