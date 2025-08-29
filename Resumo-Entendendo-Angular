@@ -1,0 +1,15 @@
+# Desvendando o Angular: do zero ao funcionamento
+
+Se você está começando a explorar o **Angular**, relaxa! Ele é um framework super poderoso que ajuda a criar sites e sistemas web de forma organizada e prática.
+
+Tudo começa com o **Angular CLI**, que é tipo uma "ferramenta mágica" que funciona no terminal e facilita muito sua vida. Com ela, você consegue criar um novo projeto rapidinho (`ng new`) e gerar os arquivos necessários (`ng generate`). A ideia principal é que sua aplicação seja feita de **componentes**, que são como bloquinhos de código que juntam HTML, CSS e TypeScript para formar partes do seu site.
+
+Agora, a parte legal: cada componente tem um "ciclo de vida". Isso significa que ele nasce, vive e pode ser destruído. Por exemplo, quando um componente é criado, o Angular chama o método `ngOnInit`; quando ele é removido, chama o `ngOnDestroy`. Esses momentos são chamados de "ganchos" (ou *hooks*), e você pode usar eles para colocar sua lógica e fazer as coisas funcionarem direitinho em cada etapa.
+
+Resumindo:
+
+- **CLI:** É sua ferramenta para automatizar tarefas e facilitar o trabalho.
+- **Componentes:** São os pedacinhos reutilizáveis do seu código.
+- **Ciclo de Vida:** É como você controla o momento certo de executar ações no componente, evitando problemas como vazamento de memória.
+
+Aprender esses conceitos básicos já vai te deixar pronto para criar projetos incríveis com Angular!
